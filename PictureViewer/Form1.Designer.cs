@@ -9,7 +9,7 @@ namespace PictureViewer
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        ///  Clean up any resources being used. 
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -58,7 +58,7 @@ namespace PictureViewer
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 90F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(535, 317);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(538, 323);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // pictureBox1
@@ -68,7 +68,7 @@ namespace PictureViewer
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Location = new System.Drawing.Point(3, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(529, 279);
+            this.pictureBox1.Size = new System.Drawing.Size(532, 284);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -80,16 +80,16 @@ namespace PictureViewer
             this.flowLayoutPanel1.Controls.Add(this.showButton);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(110, 288);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(110, 293);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(422, 26);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(425, 27);
             this.flowLayoutPanel1.TabIndex = 1;
             // 
             // closeButton
             // 
             this.closeButton.AutoSize = true;
             this.closeButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.closeButton.Location = new System.Drawing.Point(344, 0);
+            this.closeButton.Location = new System.Drawing.Point(347, 0);
             this.closeButton.Margin = new System.Windows.Forms.Padding(3, 0, 3, 3);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(75, 25);
@@ -102,7 +102,7 @@ namespace PictureViewer
             // 
             this.backgroundButton.AutoSize = true;
             this.backgroundButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.backgroundButton.Location = new System.Drawing.Point(247, 0);
+            this.backgroundButton.Location = new System.Drawing.Point(250, 0);
             this.backgroundButton.Margin = new System.Windows.Forms.Padding(3, 0, 3, 3);
             this.backgroundButton.Name = "backgroundButton";
             this.backgroundButton.Size = new System.Drawing.Size(91, 25);
@@ -115,7 +115,7 @@ namespace PictureViewer
             // 
             this.clearButton.AutoSize = true;
             this.clearButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.clearButton.Location = new System.Drawing.Point(138, 0);
+            this.clearButton.Location = new System.Drawing.Point(141, 0);
             this.clearButton.Margin = new System.Windows.Forms.Padding(3, 0, 3, 3);
             this.clearButton.Name = "clearButton";
             this.clearButton.Size = new System.Drawing.Size(103, 25);
@@ -128,7 +128,7 @@ namespace PictureViewer
             // 
             this.showButton.AutoSize = true;
             this.showButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.showButton.Location = new System.Drawing.Point(45, 0);
+            this.showButton.Location = new System.Drawing.Point(48, 0);
             this.showButton.Margin = new System.Windows.Forms.Padding(3, 0, 3, 3);
             this.showButton.Name = "showButton";
             this.showButton.Size = new System.Drawing.Size(87, 25);
@@ -141,9 +141,9 @@ namespace PictureViewer
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.checkBox1.Location = new System.Drawing.Point(3, 288);
+            this.checkBox1.Location = new System.Drawing.Point(3, 293);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(101, 26);
+            this.checkBox1.Size = new System.Drawing.Size(101, 27);
             this.checkBox1.TabIndex = 2;
             this.checkBox1.Text = "Dopasuj";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -160,7 +160,7 @@ namespace PictureViewer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(535, 317);
+            this.ClientSize = new System.Drawing.Size(538, 323);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "Form1";
             this.Text = "Przeglądarka obrazów";
